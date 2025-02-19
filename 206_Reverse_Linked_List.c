@@ -6,6 +6,15 @@
  * };
  */
 
+/*
+In this problem we had to reverse a linked list such that 
+the head was instead the tail and vice versa, so that each 
+node would instead be equidistant from the front as it previously was from the back
+i.e. in the list 1, 2, 3, 4, the task would be to change it to be 4, 3, 2, 1
+*/
+
+
+
 struct ListNode* reverseList(struct ListNode* head) {
     //Returns the node if it's last in the list or if it doesn't exist
     if (head == NULL || head->next == NULL) {
