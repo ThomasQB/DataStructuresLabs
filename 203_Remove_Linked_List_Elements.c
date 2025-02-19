@@ -5,6 +5,13 @@
  *     struct ListNode *next;
  * };
  */
+
+/*
+In this problem we had to remove every one of a
+specified value from a linked list
+i.e. In the list 1, 2, 3, 4, 3, 8 with a value of 3,
+the final list would be 1, 2, 4, 8
+*/
 struct ListNode* removeElements(struct ListNode* head, int val) {
     //Create a node to hold the head
     struct ListNode holder;
